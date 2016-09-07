@@ -12,6 +12,7 @@ This project is just to demostrate how simple it is. The core algorithm only nee
 It's pure c++ code, no OS specific code (thanks to C++ 11), it's shipped with Windows Make file (Makefile.win), all you need to do is
 
 > nmake -f Makfile.win all
+
 > debug\obj\cppaxos.exe
 
 it's all console application, however, very easy to play with
