@@ -1,0 +1,8 @@
+.vscode/
+Debug/
+debug/
+x64/
+*.db
+*.user
+*.opendb
+*.suo

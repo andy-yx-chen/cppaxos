@@ -1,0 +1,9 @@
+TARGETNAME=cppaxos
+UMTYPE=console
+USE_MSVCRT=YES
+USE_UNICODE=NO
+DEBUG=YES
+cflags=$(cflags) /D_WIN32_WINNT=0x0501
+SOURCES=\
+    src\paxos_srv.cxx\
+    src\cppaxos.cxx\
